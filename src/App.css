@@ -1,38 +1,27 @@
+:root {
+  --clr-dark: #282c34;
+}
+
 .App {
   text-align: center;
+  background-color: var(--clr-dark);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: var(--clr-dark);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background-color: var(--clr-dark) !important;
 }
 
-.App-header {
-  background-color: #282c34;
+.bg-dark {
+  background-color: var(--clr-dark);
+}
+
+.container-fluid {
+  background-color: var(--clr-dark);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
